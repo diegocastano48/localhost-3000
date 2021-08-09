@@ -1,6 +1,6 @@
 // arreglo
 const produccion_diaria =[
-    {dia:1,vaca_a:4,prod:0.0,vaca_b:5,prod2:10.1,vaca_c:50,prod3:10.3},
+    {dia:1,vaca_a:4,prod:7.0,vaca_b:5,prod2:10.1,vaca_c:50,prod3:10.3},
     {dia:2,vaca_a:4,prod:5.7,vaca_b:5,prod2:11.2,vaca_c:50,prod3:11.0},
     {dia:3,vaca_a:4,prod:4.9,vaca_b:5,prod2:7.2,vaca_c:50,prod3:9.9},
     {dia:4,vaca_a:4,prod:10.6,vaca_b:5,prod2:8.1,vaca_c:50,prod3:10.3},
