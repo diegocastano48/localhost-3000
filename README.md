@@ -54,6 +54,9 @@ Esto se refiere que cuando se pretende tener acceso desde un dominio A a un domi
 denegado por consola, este tipo de error se ve mucho para el consumo de API.
 
 
+´##Video explicación reto
+URL:
+https://www.youtube.com/watch?v=KoVX3yhp3NQ
 
 
 
