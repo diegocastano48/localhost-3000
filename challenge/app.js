@@ -1,6 +1,6 @@
 const express = require('express');
 const path = require('path');
-const body_parser = require('body-parser');
+const bodyParser = require('body-parser');
 const morgan = require('morgan');
 const app = express();
 
@@ -10,14 +10,10 @@ app.set('view engine','ejs');
 app.set('News',path.join(__dirname,'news'));
 
 // middlewares
-//app.unsubscribe(morgan('dev'));
-app.use(body_parser.urlencoded({extended:false}));
-app.use(body_parser.json());
-
-
-
-
+app.use(morgan('dev'));
+app.use(bodyParser.urlencoded({extended:false}));
+app.use(bodyParser.json());
 
 app.listen(app.get('port'),()=>{
-    //console.log("Server on port 3000");
+    console.log("Server on port 3000");
 });

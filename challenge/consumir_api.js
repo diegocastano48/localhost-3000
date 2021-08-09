@@ -1,5 +1,5 @@
 
-//Requerimos el modulo node fetch
+//Requerimos las dependencia de fetch
 const fetch = require('node-fetch');
 
 //Consumir la api
