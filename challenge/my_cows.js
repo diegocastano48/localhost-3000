@@ -197,7 +197,8 @@ if(data1 == ""){
         console.log("Dia 7: "+dia7.toFixed(1)+ " Litros");
         console.log();
     }
-
+    
+    //Pasamos a imprimir en pantalla
     console.log("Vacas que dieron mas leche por día");
     for (let index = 0; index < prod_vacas.length; index++) {
         let dia = index + 1;
